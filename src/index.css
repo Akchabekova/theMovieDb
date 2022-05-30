@@ -1,0 +1,103 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+a{
+  color: inherit;
+  text-decoration: none;
+}
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+  'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+  sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+  monospace;
+}
+
+.container{
+  padding: 0 50px;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 -15px;
+}
+
+.col-3 {
+  width: 25%;
+  padding: 0 15px;
+}
+
+.col-5{
+  width: 50%;
+  padding: 0 15px;
+}
+
+.movie-card img{
+  max-width: 100%;
+}
+
+.scroller {
+  overflow-x: scroll;
+  overflow-y: hidden;
+  width: 100%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  align-content: flex-start;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.movie-card{
+  width: 150px;
+  min-width: 150px;
+  margin-left: 20px;
+}
+.card-img{
+  height: 225px;
+  position: relative;
+}
+.card-img img{
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  border-radius: 7px;
+  margin-top: 5px;
+}
+.card-content{
+  padding: 26px 10px 12px 10px;
+}
+.card-content.person{
+  padding: 10px 7px 9px 10px;
+}
+.card-title{
+  font-size: 14px;
+}
+.card-title.person{
+  background-color: white;
+  padding: 15px 0;
+  margin: 0;
+}
+.card-title:hover{
+  color: rgb(1,180,228);
+}
+.card-year{
+  color: rgba(0,0,0,0.6);
+}
+.consensus{
+  width: 38px;
+  height: 38px;
+  background-color: beige;
+  position: absolute;
+  bottom: -18px;
+  left: 10px;
+}
+
